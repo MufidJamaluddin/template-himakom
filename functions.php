@@ -40,7 +40,7 @@ function theme_wp_scripts()
     wp_enqueue_style(
         'carousel-style',
         get_template_directory_uri() .'css/owl.carousel.min.css'
-    );		wp_enqueue_style(        'owl-theme-style',        get_template_directory_uri() .'css/himakom/owl.theme.css'    );		wp_enqueue_style(        'owl-himakom-style',        get_template_directory_uri() .'css/himakom/owl.himakom.css'    );		wp_enqueue_style(        'owl-himakom-style',        get_template_directory_uri() .'css/himakom/himakom.css'    );		wp_enqueue_style(        'fav-style',        get_template_directory_uri() .'img/core-img/himakom.ico'    );	
+    );		wp_enqueue_style(        'owl-theme-style',        get_template_directory_uri() .'css/himakom/owl.theme.css'    );		wp_enqueue_style(        'owl-himakom-style',        get_template_directory_uri() .'css/himakom/owl.himakom.css'    );		wp_enqueue_style(        'owl-himakom-style',        get_template_directory_uri() .'css/himakom/himakom.css'    );		wp_enqueue_style(        'fav-style',        get_template_directory_uri() .'img/core-img/himakom.ico'    );		wp_enqueue_style(        'fontawesome-style',        '//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'    );	
     // style.css
     wp_enqueue_style('customize-style', get_stylesheet_uri());
     

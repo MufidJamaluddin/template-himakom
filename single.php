@@ -1,4 +1,4 @@
-<?php
+<section class="app-screenshots-area bg-white section_padding_0_100 clearfix" id="blog"><?php
 get_header();
 if (have_posts()) {
     while (have_posts()) {
@@ -22,7 +22,7 @@ if (have_posts()) {
                         <h1><?php the_title();?></h1>
                         <span class="meta"Posted by 
                           <a href="<?php echo get_author_posts_url(get_the_author_meta('ID'));?>"><?php the_author();?></a>
-                          on <?php the_time();?>
+                          pada <?php the_time();?>
                         </span>
                     </div>
                 </div>
@@ -116,6 +116,6 @@ if (have_posts()) {
         <?php
     }
 }
-?>
+?></section>
 <?php
 get_footer();?>

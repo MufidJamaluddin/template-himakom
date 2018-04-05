@@ -1,4 +1,4 @@
-<?php
+<section class="app-screenshots-area bg-white section_padding_0_100 clearfix" id="blog"><?php
 get_header();
 
 if (have_posts()) {
@@ -7,8 +7,7 @@ if (have_posts()) {
         ?>
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
-    <header class="intro-header" 
-            style="background-color:#009C3F">
+    <header class="intro-header" style="background-color:#009C3F">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
@@ -26,8 +25,8 @@ if (have_posts()) {
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <?php the_content();?>
             </div>
-<div class="center-block">
-<h2>Bagikan</h2>
+			<div class="center-block">
+			<h2>Bagikan</h2>
 			<ul class="list-inline text-center">
                         <li>
                             <a href="https://twitter.com/home?status=<?php echo get_permalink( $post->ID ); ?>">
@@ -74,7 +73,7 @@ if (have_posts()) {
 		    </div>
 		    <div class="center-block hidden-lg">
 			<div class="line-it-button" style="display: none;" data-lang="en" data-type="like" data-url="<?php echo get_permalink( $post->ID ); ?>" data-share="true" data-lineid="@LTA5871H"></div>
- <script src="https://d.line-scdn.net/r/web/social-plugin/js/thirdparty/loader.min.js" async="async" defer="defer"></script>
+			<script src="https://d.line-scdn.net/r/web/social-plugin/js/thirdparty/loader.min.js" async="async" defer="defer"></script>
 		    </div>
         </div>
     </div>
@@ -83,5 +82,5 @@ if (have_posts()) {
 <?php
   } // end while
 } // end if
-
-get_footer();?>
+?></section>
+<?php get_footer();?>
